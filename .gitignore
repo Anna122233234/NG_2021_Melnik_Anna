@@ -1,9 +1,6 @@
-*.sln
-
-*Debug\*
-
-*.vcxproj
-
-*.vcsproj.*
+*bin\*
+*obj\*
+*.layout
+*.depend
 
 
