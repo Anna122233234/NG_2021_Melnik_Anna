@@ -1,25 +1,19 @@
-﻿// task 4.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
+﻿#include <iostream>
 
-#include <iostream>
- 
 using namespace std;
 int main()
 {
-    int a, b, c;
-    cout << "Enter a " << endl;
-    cin >> a;
-    cout << "Enter b " << endl;
-    cin >> b;
-    cout << "Enter c " << endl;
-    cin >> c;
+    int a, b, c, x1, x2;
+    cout << "Enter a, b,c  " << endl;
+    cin >> a >> b >> c ;
+
+
     int D;
     D = b * b - 4 * a * c;
     cout << " D=";
     cout << D=<< endl;
         if (D > 0) {
-            double x1, x2;
-            x1 = -b - sqrt(D) / 2; 
+            x1 = -b - sqrt(D) / 2;
             cout << x1 << endl;
             x2 = -b + sqrt(D) / 2;
             cout << x2 << endl;
@@ -28,7 +22,6 @@ int main()
         cout << "There is no roots" << endl;
         }
         if (D < 0) {
-            double x;
-            x = -b - sqrt(D) / 2;
+            x1 = -b - sqrt(D) / 2;
         }
 }

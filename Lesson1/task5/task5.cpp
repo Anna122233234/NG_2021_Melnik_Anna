@@ -11,7 +11,7 @@ int main()
     cin >> y;
     y = y / 3 - 2;
     cout << "this is fuel:"y;
-
+    return 0;
 }
 
 
