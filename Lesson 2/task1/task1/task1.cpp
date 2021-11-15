@@ -3,16 +3,15 @@ using namespace std;
 
 int main()
 {
-    int n;
+    int number = 0;
     int sum = 0;
 
-    cout << "please, enter n = ";
-    cin >> n;
+    cout << "please, enter number = ";
+    cin >> number;
 
-    while (n != 0)
+    for (int i = number; i > 0;  i /= 10)
     {
-        sum += n % 10;
-        n /= 10;
+        sum += i % 10;
     }
     cout << "sum = " << sum << endl;
 
